@@ -16,6 +16,7 @@
   -->
   <base href="/sway_website/">
 
+
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
@@ -32,12 +33,15 @@
   <title>sway_website</title>
   <link rel="manifest" href="manifest.json">
 
-  <!-- Service worker script disabled for troubleshooting -->
-  <!--
   <script>
     // The value below is injected by flutter build, do not touch.
     const serviceWorkerVersion = "3531032536";
-
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
@@ -52,11 +56,5 @@
       });
     });
   </script>
-  -->
-
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
-</head>
-<body>
 </body>
 </html>

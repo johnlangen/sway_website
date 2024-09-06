@@ -36,7 +36,6 @@ flutter:
   assets:
     - assets/background_image.png
     - assets/swaylogo.png
-    - assets/background_image.mov
     - assets/homepage_photo1.png
     - assets/homepage_photo2.png
     - assets/homepage_photo3.png
@@ -54,7 +53,6 @@ flutter:
     - assets/homepage_photo15.png
     - assets/join1.png
     - assets/join2.png
-    - assets/join1.mov
     - assets/treatment1.png
     - assets/treatment2.png
     - assets/treatment3.png
